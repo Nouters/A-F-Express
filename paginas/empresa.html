@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../estilos/estilos.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,16 +29,18 @@
         <p class="parrafos">A&F express es una empresa de logistica y distribucion ubicada en mar del plata, que cuenta con mas de 10 años de experiencia. Estamos enfocados en el buen servicio y calidad que se le brinda a todos los clientes.</p>
         
         <h3 class="titulo">¿Donde podes encontrarnos?</h3>
-        <img class="mapa" src="../multimedia/ubicacion.jpg" width="300px">
+        <div>
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5289.411310895982!2d-57.576836266597404!3d-37.97473058931389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1644792222766!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
         <p class="parrafos2">Por el momento no contamos con una oficina a la cual puedan acudir a nosotros, pero si lo puede hacer via redes sociales como tambien por WhatsApp.</p>
         
         <h3 class="titulo">Nuestra Flota</h3>
         <section class="flota">
-            <img class="f100" src="../multimedia/f100.jpg" width="300px">
+            <img class="f100" src="../multimedia/f100.jpg" width="300px" data-aos="zoom-in">
             <p class="texto__camioneta">Contamos con 3 camionestas, las cuales se encargan de realizar los repartos y mudanzas</p>
-            <img class="camion" src="../multimedia/camion608.jpg" width="300px">
+            <img class="camion" src="../multimedia/camion608.jpg" width="300px" data-aos="zoom-in">
             <p class="texto__camion">Contamos con 1 camion mercedes benz 608, para mudanzas grandes o viajes de larga distancia</p>
-            <img class="deposito" src="../multimedia/guardamuebles.jpg" width="300px">
+            <img class="deposito" src="../multimedia/guardamuebles.jpg" width="300px" data-aos="zoom-in">
             <p class="texto__deposito">Contamos con un deposito, el cual esta habilitado para el servicio de guardamuebles</p>
         </section>
     </main>
@@ -52,6 +55,11 @@
         <div class="footer__texto">
             <p>Copyright 2022 | Todos los derechos reservados por A&F Express</p>
         </div>
-    </footer>      
+    </footer>     
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
