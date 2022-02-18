@@ -70,32 +70,15 @@
 
 .main__empresa {
     background-color: #002962;
-    text-align: center;
     min-height: 148vh;
 }
 
-.titulo {
-    padding: 5rem 0rem 2rem 0rem;
-    font-size: 25px;
-    color: #d62828;
-}
-
 .parrafos {
-    color: white;
-    font-size: 20px;
-    display: inline-block;
-    text-align: center;  
+    display: inline-block;  
     width: 800px;
 }
 
-.mapa {
-    text-align: center;
-}
-
 .parrafos2 {
-    padding: 1rem;
-    color: white;
-    font-size: 20px;
     display: inline-block;
     width: 800px;
 }
@@ -105,7 +88,6 @@
     grid-template-columns: repeat(7, 1fr);
     align-items: center;
     justify-items: center;
-    font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -116,7 +98,6 @@
 .texto__camioneta {
     padding-top: 1rem;
     grid-column: -7/-6;
-    color: white;
 }
 
 .camion {
@@ -126,7 +107,6 @@
 
 .texto__camion {
     grid-column: -5/-4;
-    color: white;
 }
 
 .deposito {
@@ -135,8 +115,7 @@
 }
 
 .texto__deposito {
-    grid-column: -3/-2;
-    color: white;
+    grid-column: -3/-2;    
 }
 
 
@@ -165,7 +144,6 @@
     border: none;
     background-color: transparent;
     font-family:cursive;
-    font-size: 18px;
     border-bottom: 2px solid blue;
     text-align: center;
 }
@@ -176,8 +154,6 @@
 
 .parrafo__contacto {
     grid-column: -3/-2;
-    font-size: 20px;
-    color: white;
 }
 
 .input__botones {
@@ -230,7 +206,6 @@
     background-color: transparent;
     font-family:cursive;
     width: 200px;
-    font-size: 20px;
     border-bottom: 2px solid blue;
     text-align: center;
 }
@@ -241,9 +216,6 @@
 
 .parrafo__presupuesto {
     grid-column: -3/-2;
-    font-size: 20px;
-    text-align: center;
-    color: white;
 }
 
 
