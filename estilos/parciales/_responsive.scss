@@ -1,0 +1,59 @@
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .header__lista {
+        flex-wrap: wrap;
+    }
+
+    .texto__camion, .texto__camioneta, .texto__deposito {
+        width: 600px;
+        padding: 1rem;
+    }
+
+    .mapa {
+        width: 90%;
+    }
+
+    .parrafos, .parrafos2 {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .header__lista {
+        flex-direction: column;
+        flex-wrap: wrap;
+        line-height: 1.6;
+    }
+
+    .mapa {
+        width: 95%;
+    }
+
+    .galeriaa {
+        width: 100%;
+    }
+
+    .input__diseñoC {
+        font-size: 18px;
+    }
+
+    .contenedor__presupuesto {
+        width: 270px;
+        height: 910px;
+    }
+
+    .input__botones {
+        padding-top: 15px;
+    }
+    
+    
+
+    .texto__camion, .texto__camioneta, .texto__deposito {
+        width: 300px;
+        padding: 1rem;
+    }
+}

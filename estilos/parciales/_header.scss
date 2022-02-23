@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004e89;
+    padding: 10px 10px;
+    &__logo {
+        display: flex;
+        animation-name: aparecer;
+        animation-duration: 3s;
+    }
+    
+    &__lista {
+        display: flex;
+        list-style: none;
+        font-size: 23px;
+        a {
+            text-decoration: none;
+            text-align: center;
+            padding: 0.3rem;
+            color: white;
+            border-bottom: 2px solid #d62828;
+            margin: 15px;
+        }
+    }    
+    
+    &__lista a:hover{
+        background-color: #d62828;
+        border-radius: 20%;
+    }
+}

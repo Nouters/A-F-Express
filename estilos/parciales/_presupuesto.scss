@@ -1,0 +1,40 @@
+.main__presupuesto {
+    background-color: #002962;
+    min-height: 67vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+    font-size: 20px;
+    
+    .contenedor__presupuesto {
+        background-color: white;
+        width: 650px;
+        height: 400px;
+        grid-column: 2/3;
+        text-align: center;
+        padding-top: 2.5rem;
+    }
+    
+    .presupuesto label{
+        padding-left: 20px;
+        line-height: 2.5;
+    }
+    
+    .input__diseñoP {
+        border: none;
+        background-color: transparent;
+        font-family:cursive;
+        width: 200px;
+        border-bottom: 2px solid blue;
+        text-align: center;
+    }
+    
+    .input__diseñoP:focus {
+        outline: none;
+    }
+    
+    .parrafo__presupuesto {
+        grid-column: -3/-2;
+    }
+}

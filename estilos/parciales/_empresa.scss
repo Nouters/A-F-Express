@@ -1,0 +1,49 @@
+.main__empresa {
+    background-color: #002962;
+    min-height: 148vh;
+    
+    .parrafos {
+        width: 80%;
+        margin-left: 10%;       
+    }
+    
+    .parrafos2 {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .flota {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        align-items: center;
+        justify-items: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .f100 {
+        grid-column: 2/3;
+    }
+    
+    .texto__camioneta {
+        padding-top: 1rem;
+        grid-column: -7/-6;
+    }
+    
+    .camion {
+        grid-column: 4/5;
+        grid-row: 1/2;
+    }
+    
+    .texto__camion {
+        grid-column: -5/-4;
+    }
+    
+    .deposito {
+        grid-column: 6/7;
+        grid-row: 1/2;
+    }
+    
+    .texto__deposito {
+        grid-column: -3/-2;    
+    }
+}

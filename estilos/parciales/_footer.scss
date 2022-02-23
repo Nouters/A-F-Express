@@ -1,0 +1,32 @@
+.footer {
+    font-size: 20px;
+    .footer__textoRedes {
+        padding-top: 15px;
+        text-align: center;
+        background-color: #407ba7;
+        margin-bottom: 0rem;
+    }
+    
+    &__redes {
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+        min-height: 11vh;    
+        background-color: #407ba7;
+        img{
+            margin: 0px 30px;
+        }
+    }
+        
+    &__redes img:hover{
+        transform:translateY(-10px)
+    }
+    
+    &__texto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 10vh;
+        background-color: #004e89;
+    }
+}
