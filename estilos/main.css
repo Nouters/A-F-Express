@@ -59,7 +59,7 @@
 .footer .footer__textoRedes {
   padding-top: 15px;
   text-align: center;
-  background-color: #407ba7;
+  background-color: #004e89;
   margin-bottom: 0rem;
 }
 
@@ -96,6 +96,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
   min-height: 10vh;
   background-color: #004e89;
 }
@@ -192,8 +193,8 @@
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
-  -ms-grid-rows: 500px 100px;
-      grid-template-rows: 500px 100px;
+  -ms-grid-rows: 450px 100px;
+      grid-template-rows: 450px 100px;
   justify-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -202,8 +203,8 @@
 
 .main__contacto .contenedor__contacto {
   background-color: white;
-  width: 450px;
-  height: 400px;
+  width: 400px;
+  height: 350px;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
@@ -229,18 +230,8 @@
   grid-column: -3/-2;
 }
 
-.main__contacto .input__botones {
-  background-color: transparent;
-  border: none;
-  margin: 0px 15px;
-  font-size: 20px;
-  border-bottom: 2px solid blue;
-}
-
-.main__contacto .input__botones:hover {
-  background-color: blue;
-  color: white;
-  border-radius: 20%;
+.main__contacto .contenedor__botones {
+  padding-top: 1.5rem;
 }
 
 .main__contacto .input__diseño:focus {
@@ -269,7 +260,6 @@
   -ms-grid-column-span: 1;
   grid-column: 2/3;
   text-align: center;
-  padding-top: 2.5rem;
 }
 
 .main__presupuesto .presupuesto label {
@@ -291,6 +281,7 @@
 }
 
 .main__presupuesto .parrafo__presupuesto {
+  padding-top: 1.5rem;
   grid-column: -3/-2;
 }
 
@@ -353,6 +344,19 @@
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+  .main__index {
+    min-height: 75vh;
+  }
+  .main__empresa .flota {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .texto__camion, .texto__camioneta, .texto__deposito {
     width: 600px;
     padding: 1rem;
@@ -360,8 +364,9 @@
   .mapa {
     width: 90%;
   }
-  .parrafos, .parrafos2 {
-    width: 90%;
+  .parrafo__contacto {
+    text-align: center;
+    width: 80%;
   }
 }
 
@@ -384,16 +389,21 @@
   .input__diseñoC {
     font-size: 18px;
   }
-  .contenedor__presupuesto {
-    width: 270px;
-    height: 910px;
+  .main__contacto .contenedor__contacto {
+    width: 310px;
   }
-  .input__botones {
-    padding-top: 15px;
+  .parrafo__contacto {
+    text-align: center;
   }
-  .texto__camion, .texto__camioneta, .texto__deposito {
-    width: 300px;
-    padding: 1rem;
+  .main__presupuesto {
+    padding-top: 2.5rem;
+  }
+  .main__presupuesto .contenedor__presupuesto {
+    width: 310px;
+    height: 670px;
+  }
+  .contenedor__botones {
+    padding-top: 1.5rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -6,11 +6,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En esta pagina se pueden pedir presupuestos">
+    <meta name="keywords" content="inicio, servicios, presupuesto, contacto, empresa">
     <title>A&F Express | Presupuesto</title>
 </head>
 <body>
     <header class="header">
-        <img class="header__logo" src="../multimedia/logo.png" width="200">
+        <img class="header__logo" src="../multimedia/logo.png" width="200" alt="logo">
         <nav>
             <div>
                 <ul class="header__lista">
@@ -66,13 +68,15 @@
                         <option value="si">Si</option>
                         <option value="no">No</option>
                     </select>
-                    <label for="horario">Horario</label>
-                    <select name="" id="horario" required>
-                        <option value="#" disabled selected></option>
-                        <option value="am/pm">Indiferente</option>
-                        <option value="am">De mañana</option>
-                        <option value="pm">De tarde</option>
-                    </select>
+                    <div>
+                        <label for="horario">Horario</label>
+                        <select name="" id="horario" required>
+                            <option value="#" disabled selected></option>
+                            <option value="am/pm">Indiferente</option>
+                            <option value="am">De mañana</option>
+                            <option value="pm">De tarde</option>
+                        </select>
+                    </div>
                 </div>
                 <div>
                     <label for="cuando">Cuando lo necesita</label>
@@ -83,7 +87,7 @@
                         <option value="mes">En el mes</option>
                     </select>
                 </div>
-                <div>
+                <div class="contenedor__botones">
                     <input class="input__botones" type="submit" value="Enviar">
                     <input class="input__botones" type="reset" value="Restaurar">
                 </div>
@@ -96,9 +100,9 @@
     <footer class="footer">
         <p class="footer__textoRedes">Redes y Contactos</p>
         <div class="footer__redes">
-            <a href="https://wa.me/+5492235416964" target="_blank"><img src="../multimedia/logowps.png" width="44"></a>
-            <a href="https://www.facebook.com" target="_blank"><img src="../multimedia/logoface.png" width="40"></a>
-            <a href="" target="_blank"><img src="../multimedia/logogmail.png" width="40"></a>
+            <a href="https://wa.me/+5492235416964" target="_blank"><img src="../multimedia/logowps.png" width="44" alt="logoWp"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="../multimedia/logoface.png" width="40" alt="logoFacebook"></a>
+            <a href="" target="_blank"><img src="../multimedia/logogmail.png" width="40" alt="logoGmail"></a>
         </div>
         <div class="footer__texto">
             <p>Copyright 2022 | Todos los derechos reservados por A&F Express</p>

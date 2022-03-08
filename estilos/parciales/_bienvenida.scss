@@ -1,4 +1,4 @@
 .main__index {
-    background-color: #002962;
+    background-color: map-get($colores, fondoMain);
     min-height: 110vh;
 }

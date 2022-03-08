@@ -1,5 +1,5 @@
 .main__presupuesto {
-    background-color: #002962;
+    background-color: map-get($colores, fondoMain);
     min-height: 67vh;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -12,8 +12,7 @@
         width: 650px;
         height: 400px;
         grid-column: 2/3;
-        text-align: center;
-        padding-top: 2.5rem;
+        text-align: center;        
     }
     
     .presupuesto label{
@@ -35,6 +34,7 @@
     }
     
     .parrafo__presupuesto {
+        padding-top: 1.5rem;
         grid-column: -3/-2;
     }
 }

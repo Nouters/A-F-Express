@@ -1,10 +1,20 @@
-@media screen and (max-width: 768px) {
+@include tablet {
     .header {
         flex-direction: column;
     }
 
     .header__lista {
         flex-wrap: wrap;
+    }
+
+    .main__index {
+        min-height: 75vh;
+    }
+
+    .main__empresa .flota {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .texto__camion, .texto__camioneta, .texto__deposito {
@@ -16,13 +26,15 @@
         width: 90%;
     }
 
-    .parrafos, .parrafos2 {
-        width: 90%;
+    .parrafo__contacto {
+        text-align: center;
+        width: 80%;
     }
+
 }
 
 
-@media screen and (max-width: 425px) {
+@include mobile {
     .header__lista {
         flex-direction: column;
         flex-wrap: wrap;
@@ -41,19 +53,24 @@
         font-size: 18px;
     }
 
-    .contenedor__presupuesto {
-        width: 270px;
-        height: 910px;
+    .main__contacto .contenedor__contacto {
+        width: 310px;
     }
 
-    .input__botones {
-        padding-top: 15px;
+    .parrafo__contacto {
+        text-align: center;
     }
-    
-    
 
-    .texto__camion, .texto__camioneta, .texto__deposito {
-        width: 300px;
-        padding: 1rem;
+    .main__presupuesto {
+        padding-top: 2.5rem;
+    }
+
+    .main__presupuesto .contenedor__presupuesto {
+        width: 310px;
+        height: 670px;
+    }
+
+    .contenedor__botones {
+        padding-top: 1.5rem;
     }
 }
